@@ -6,6 +6,8 @@ import AboutPage from './pages/about/about';
 import Navbar from './component/nav/navbar';
 import Products from './pages/products/products';
 import Cart from './pages/cart/cart';
+import Search from './pages/search/search';
+
 
 
 
@@ -19,6 +21,8 @@ function App() {
             <Route path='/about' Component={AboutPage} />
             <Route path='/products' Component={Products} />
             <Route path='/cart' Component={Cart} />
+            <Route path='/search' Component={Search} />
+            
 
             
           </Routes>

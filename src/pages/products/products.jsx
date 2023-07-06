@@ -1,17 +1,13 @@
 import React from 'react'
-import { PRODUCT } from '../../product';
+import MarketPlace from '../../component/marketPlace/marketPlace'
 
-const Products = (props) => {
-  const { products }= props;
+const products = () => {
   return (
-    <div className="Products">
-      <div className="titlePage">
-      <h1>HyperVerse Store</h1>
-      </div>
-      <div className="items">
-      </div>
-    </div>
+    <>
+    <h1 style={{marginLeft:'40%', marginTop:'10px'}}>Available Products</h1>
+    <div><MarketPlace/></div>
+    </>
   )
 }
 
-export default Products;
+export default products
