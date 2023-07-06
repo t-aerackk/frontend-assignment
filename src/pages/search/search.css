@@ -1,0 +1,11 @@
+.container img {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-img-top {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+  }
